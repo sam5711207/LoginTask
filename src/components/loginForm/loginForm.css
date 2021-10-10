@@ -1,0 +1,127 @@
+.loginBody{
+  font-family: "Karla", sans-serif;
+  opacity: 0.6;
+  min-height: 100vh;
+  margin-left: 8%;
+}
+.brand-wrapper {
+  padding-top: 1%;
+  padding-bottom: 8%; 
+}
+.brand-wrapper .logo {
+  height: 50%; 
+}
+.login-section-wrapper {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  padding: 75px 100px;
+  background-color: #fff; 
+}
+@media (max-width: 991px) {
+.login-section-wrapper {
+  padding-left: 20%;
+  padding-right: 50%; } }
+@media (max-width: 575px) {
+.login-section-wrapper {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  min-height: 100vh; 
+  } 
+} 
+.login-wrapper {
+  width: 45vw;
+  max-width: 100%;
+  padding-top: 10%;
+  padding-bottom: 20%; 
+}
+@media (max-width: 575px) {
+.login-wrapper {
+  width: 100%; 
+  } 
+}
+.login-wrapper label {
+  font-size: 130%;
+  font-weight: bold;
+  color: black;
+}
+/* .login-wrapper .required_input{
+  border: 1px solid red;
+  border-bottom: 1px solid #e7e7e7;
+  border-radius: 0;
+  padding: 4% 5%;
+  min-height: 40px;
+  font-size: 80%;
+  font-weight: bold;
+} */
+.login-wrapper .form-control {
+  border: none;
+  border-bottom: 1px solid #e7e7e7;
+  border-radius: 0;
+  padding: 4% 5%;
+  min-height: 40px;
+  font-size: 80%;
+  font-weight: bold;
+}
+.login-wrapper .form-control::-webkit-input-placeholder {
+  color: #b0adad; 
+}
+.login-wrapper .form-control::-moz-placeholder {
+  color: #b0adad; 
+}
+.login-wrapper .form-control:-ms-input-placeholder {
+  color: #b0adad; 
+}
+.login-wrapper .form-control::placeholder {
+  color: #b0adad; 
+}
+.form-control::-webkit-outer-spin-button,
+.form-control::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.login-wrapper .login-btn {
+  padding: 5% 10%;
+  background-color: #fdbb28;
+  border-radius: 0;
+  font-size: 120%;
+  font-weight: bold;
+  color: #fff;
+  opacity: 1;
+  margin-bottom: 3%; 
+  width: 60%;
+}
+.login-wrapper .login-btn:hover {
+  border: 1px solid #fdbb28;
+  background-color: #fff;
+  color: #fdbb28; 
+}
+
+.login-wrapper-footer-text {
+  font-size: 100%;
+  color: #000;
+  margin-bottom: 0;
+} 
+.login-title {
+  font-size: 200%;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 20%; 
+}
+.loginImg {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: left;
+  object-position: left;
+  opacity: 1; 
+}
+
+  
+
+  
+  
